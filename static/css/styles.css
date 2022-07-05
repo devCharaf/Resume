@@ -1,0 +1,62 @@
+body {
+  color: #1A374D;
+  margin: 0;
+  text-align: center;
+  font: 'Merriweather', serif;
+}
+
+h1 {
+  font: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+  padding: 50px 10px 50px 10px;
+}
+
+h2 {
+  color: #6998AB;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+p {
+  font: 'Montserrat', sans-serif;
+  padding: 20px 10px 20px 10px;
+}
+
+
+/*******************************Class SELECTORS******************************/
+.stuck {
+  background-color: red;
+  position: fixed;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+  color: black;
+}
+
+.my_profile {
+  border-radius: 100%;
+  width:200;
+  height:200;
+  box-sizing: border-box;
+}
+
+.top-container {
+  background-color: #406882;
+}
+
+.navbar-custom {
+  background-color: #1A374D !important;
+}
+
+.my_nav {
+  color: #406882;
+}
+
+.my_nav:hover {
+  color: #6998AB;
+}
