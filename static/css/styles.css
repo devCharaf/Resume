@@ -45,6 +45,15 @@ p {
   box-sizing: border-box;
 }
 
+.skill {
+  width: 35%;
+  margin: auto;
+}
+
+.code-img {
+  float: left;
+}
+
 .top-container {
   background-color: #406882;
 }
