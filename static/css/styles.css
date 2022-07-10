@@ -20,6 +20,11 @@ h2 {
   padding-bottom: 10px;
 }
 
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+}
+
 p {
   font: 'Montserrat', sans-serif;
   padding: 20px 10px 20px 10px;
@@ -50,11 +55,19 @@ p {
   margin: auto;
 }
 
+.container-fluid {
+  padding: 7% 15%;
+}
+
 .code-img {
   float: left;
 }
 
 .top-container {
+
+}
+
+#education {
   background-color: #406882;
 }
 
@@ -64,6 +77,23 @@ p {
 
 .my_nav {
   color: #406882;
+}
+
+.education-img {
+  height: 10%;
+  width: 10%;
+}
+
+.carousel-child-logo {
+  width: 20%;
+  float: left;
+  padding:20px;
+}
+
+.carousel-child-text {
+  width: 80%;
+  float: left;
+  padding: 20px;
 }
 
 .my_nav:hover {

@@ -2,7 +2,7 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Sacramento&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +26,10 @@
     <p>⚠️ This website is under construction ⚠️</p>
   </div>
 
-  <div class="top-container">
+  <section id="title">
+    <div class="top-container my-nav-bar">
 
-    <!-- Nav Bar -->
-    <div class="my-nav-bar">
-
+      <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg bg-light navbar-custom">
         <div class="container-fluid back_nav">
           <a class="navbar-brand my_nav" href="#">CharafHub</a>
@@ -67,15 +66,74 @@
           </div>
         </div>
       </nav>
+
+      <!-- Intro -->
+      <div class="intro">
+        <h1>Hi! I'm Charaf :)</h1>
+        <h2>a physicist and a <span>pro</span>grammer</h2>
+        <p>Get to know me better 😀</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <div id="education-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <div class="carousel-child-logo">
+            <img src="static/images/udem.png" class="d-block w-100 education-img" alt="Université de Montréal">
+          </div>
+          <div class="carousel-child-text" style="text-align:left">
+            <h5>2021 - present | Université de Montréal</h5>
+            <p style="font-family:'Roboto', sans-serif;">
+              Master of Science in Computational and Mathematical Finance.<br>
+              GPA: -/4.3
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <div class="carousel-child-logo">
+            <img src="static/images/epfl.png" class="d-block w-100 education-img" alt="Université de Montréal">
+          </div>
+          <div class="carousel-child-text" style="text-align:left">
+            <h5>2019 - 2021 | Ecole Polytechnique Fédérale de Lausanne</h5>
+            <p style="font-family:'Roboto', sans-serif;">
+              Master of Science in Theoretical Physics.<br>
+              GPA: 5.3/6
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <div class="carousel-child-logo">
+            <img src="static/images/epfl.png" class="d-block w-100 education-img" alt="Université de Montréal">
+          </div>
+          <div class="carousel-child-text" style="text-align:left">
+            <h5>2021 - present | Université de Montréal</h5>
+            <p style="font-family:'Roboto', sans-serif;">
+              Bachelor of Science in Physics.<br>
+              GPA: -/4.3
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#education-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#education-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
-    <div class="intro">
-      <h1>Hi! I'm Charaf :)</h1>
-      <h2>a physicist and a <span>pro</span>grammer</h2>
-      <p>Get to know me better 😀</p>
-    </div>
+  </section>
 
-  </div>
 
   <div class="middle">
 
